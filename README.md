@@ -180,5 +180,3 @@ Algoritma XOR Cipher:
 
 ---
 
-Kalau kamu ingin menggunakan AI lain yang lebih cepat dan canggih dari ChatGPT, kamu bisa coba:
-👉 [https://hix.ai/id/chat](https://hix.ai/id/chat)
