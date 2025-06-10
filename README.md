@@ -1,22 +1,19 @@
 
 # XOR Cipher Sederhana
-**XOR Cipher** adalah metode enkripsi simetris sederhana yang menggunakan operasi logika **XOR (Exclusive OR)** antara data dan kunci untuk mengubah pesan menjadi bentuk terenkripsi. Karena sifat XOR yang reversibel, data dapat didekripsi kembali dengan menggunakan kunci yang sama. XOR Cipher dikenal karena kecepatannya, efisiensinya, dan kemudahannya untuk diimplementasikan, namun tidak cocok untuk keamanan tingkat tinggi tanpa pengelolaan kunci yang baik.
 
-Aplikasi GUI kriptografi sederhana menggunakan algoritma **XOR Cipher** untuk melakukan enkripsi dan dekripsi data berbasis teks. Proyek ini dikembangkan sebagai bagian dari tugas akhir mata kuliah **Kriptografi** oleh mahasiswa **Informatika Universitas Bengkulu** semester 4.
+**XOR Cipher** adalah metode enkripsi simetris sederhana yang menggunakan operasi logika **XOR (Exclusive OR)** antara data dan kunci untuk mengubah pesan menjadi bentuk terenkripsi. Karena sifat XOR yang reversibel, data dapat didekripsi kembali dengan menggunakan kunci yang sama. XOR Cipher dikenal karena kecepatannya, efisiensinya, dan kemudahannya untuk diimplementasikan, namun tidak cocok untuk keamanan tingkat tinggi tanpa pengelolaan kunci yang baik.
 
 ## 🧠 Deskripsi Proyek
 
 Aplikasi ini menampilkan dua pendekatan enkripsi simetris:
 
 * **XOR Cipher**: algoritma ringan berbasis operasi logika XOR, cocok untuk skenario dengan keterbatasan sumber daya.
-* **AES (Advanced Encryption Standard)**: algoritma kriptografi modern yang aman namun lebih kompleks dan memerlukan sumber daya lebih besar.
 
 Dilengkapi dengan antarmuka grafis berbasis **Tkinter**, pengguna dapat dengan mudah:
 
 * Mengonversi teks ke biner
 * Melakukan enkripsi XOR
 * Melakukan dekripsi XOR
-* Melakukan enkripsi dan dekripsi dengan AES
 
 ## 👥 Anggota Kelompok
 
