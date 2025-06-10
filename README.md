@@ -35,6 +35,59 @@ Dilengkapi dengan antarmuka grafis berbasis **Tkinter**, pengguna dapat dengan m
 * ✅ GUI berbasis Python Tkinter
 * ✅ Ringan, cepat, dan edukatif
 
+## 🧩 Fungsi Utama
+
+```python
+def teks_ke_biner(teks):
+    # Mengubah teks ASCII menjadi representasi biner 8-bit per karakter
+    return ''.join(format(ord(char), '08b') for char in teks)
+
+def biner_ke_teks(biner):
+    # Mengubah biner ke teks asli (jika format valid)
+    try:
+        chars = [biner[i:i+8] for i in range(0, len(biner), 8)]
+        return ''.join(chr(int(char, 2)) for char in chars)
+    except:
+        return "[Format biner tidak valid]"
+
+def xor_cipher(pesan_biner, kunci_biner):
+    # XOR bitwise antara pesan dan kunci yang diulang jika pendek
+    hasil = ''
+    for i in range(len(pesan_biner)):
+        bit_pesan = int(pesan_biner[i])
+        bit_kunci = int(kunci_biner[i % len(kunci_biner)])
+        hasil += str(bit_pesan ^ bit_kunci)
+    return hasil
+```
+
+## 🧪 Contoh Penggunaan
+
+```python
+# Contoh enkripsi
+plaintext = "Informatika"
+biner = teks_ke_biner(plaintext)
+kunci = "1010"
+cipher = xor_cipher(biner, kunci)
+
+# Contoh dekripsi
+decrypted_biner = xor_cipher(cipher, kunci)
+hasil_teks = biner_ke_teks(decrypted_biner)
+
+print("Plaintext:", plaintext)
+print("Biner:", biner)
+print("Cipher:", cipher)
+print("Teks hasil dekripsi:", hasil_teks)
+```
+
+## 💡 Output
+
+```
+Plaintext: Informatika
+Biner: 01001001011011100110011001101111...
+Cipher: 11100011110001001100110011000101...
+Teks hasil dekripsi: Informatika
+```
+
 ## 🧪 Pengujian
 
 Pengujian dilakukan menggunakan metode **black-box testing**, dengan fokus pada:
