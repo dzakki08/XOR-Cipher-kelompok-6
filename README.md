@@ -15,14 +15,6 @@ Dilengkapi dengan antarmuka grafis berbasis **Tkinter**, pengguna dapat dengan m
 * Melakukan enkripsi XOR
 * Melakukan dekripsi XOR
 
-## 👥 Anggota Kelompok
-
-1. Pebi Heriansyah (G1A023003)
-2. Arriqoh Firzatullah (G1A023033)
-3. Achmad Azza Al Haqi (G1A023037)
-4. Reffki Andrea Pratama (G1A023039)
-5. Muhammad Farhan Dzakki (G1A023041)
-
 ## 📋 Fitur Aplikasi
 
 * ✅ Konversi teks ↔ biner (8-bit/karakter)
